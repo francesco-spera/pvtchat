@@ -77,7 +77,8 @@ while True:
             # That gives us new socket - client socket, connected to this given client only, it's unique for that client
             # The other returned object is ip/port set
             client_socket, client_address = server_socket.accept()
-
+            print(f'{client_socket} #### {client_address}')
+            
             # Client should send his name right away, receive it
             user = receive_message(client_socket)
 
