@@ -1,5 +1,6 @@
 import socket
 import select
+import pyperclip
 
 HEADER_LENGTH = 10
 
