@@ -4,7 +4,7 @@ import pyperclip
 
 HEADER_LENGTH = 10
 
-IP = "151.73.87.198"
+IP = socket.gethostbyname(socket.gethostname())
 PORT = 1234
 
 # Create a socket
